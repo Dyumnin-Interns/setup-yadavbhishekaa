@@ -11,6 +11,6 @@ module dut_test(
 
     initial begin  // Fixed 'initial' block syntax
         $dumpfile("waves.vcd");  // Corrected quotes
-        $dumpvars(0, or_test);  // Fixed incorrect system task
+        $dumpvars(0, dut_test);  // Fixed incorrect system task
     end
 endmodule
